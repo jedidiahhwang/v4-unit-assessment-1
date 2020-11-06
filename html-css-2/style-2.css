@@ -11,6 +11,10 @@ header {
     display: inline-block;
 }
 
+h2 {
+    margin-bottom: 0px;
+}
+
 .top-container {
     border: 1px dashed BLACK;
     box-sizing: border-box;
@@ -41,6 +45,7 @@ header {
 }
 
 #pink-rectangle {
+    border: 1px solid BLACK;
     background-color: #D77493;
     display: inline-grid;
     width: 200px;
@@ -57,13 +62,38 @@ header {
     width: 100%;
 }
 
+.coal {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
 #head {
     border: 1px solid BLACK;
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    display: block;
+    /* display: block; */
     margin-left: 15px;
+}
+
+.first-eye {
+    background-color: BLACK;
+    margin-left: 20px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.second-eye {
+    background-color: BLACK;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#carrot-image {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
 }
 
 #torso {
@@ -72,6 +102,30 @@ header {
     width: 130px;
     border-radius: 100%;
     display: block;
+}
+
+.first-button {
+    background-color: BLACK;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+}
+
+.second-button {
+    background-color: BLACK;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+}
+
+.third-button {
+    background-color: BLACK;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 55px;
 }
 
 #bottom {
@@ -122,12 +176,20 @@ header {
     border-radius: 100%;
 }
 
+#fish-image {
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
 #fish-tank {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 50;
-    line-height: 0px;
+    font-weight: lighter;
+    position: relative;
     text-align: center;
+    bottom: 15px;
     vertical-align: center;
     color: white;
 }
