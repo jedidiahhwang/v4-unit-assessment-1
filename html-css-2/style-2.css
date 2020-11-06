@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #89FCD6;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.top-container {
+    border: 1px dashed BLACK;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+#purple-rectangle {
+    border: 3px solid RED;
+    background-color:#48187F;
+    box-sizing: border-box;
+    display: inline-grid;
+    width: 250px;
+    height: 100px;
+}
+
+#blue-rectangle {
+    background-color: BLUE;
+    display: inline-grid;
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+    -webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+}
+
+#pink-rectangle {
+    background-color: #D77493;
+    display: inline-grid;
+    width: 200px;
+    height: 200px;
+    margin: 0px 20px;
+}
+
+.middle-container {
+    border: 1px dashed BLACK;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+}
+
+#head {
+    border: 1px solid BLACK;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: block;
+    margin-left: 15px;
+}
+
+#torso {
+    border: 1px solid BLACK;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    display: block;
+}
+
+#bottom {
+    border: 1px solid BLACK;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-left: -5px;
+}
+
+.bottom-container {
+    border: 1px dashed BLACK;
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+}
+
+#outer-square {
+    border: 1px solid BLACK;
+    background-color: #F5F4DE;
+    width: 250px;
+    height: 250px;
+}
+
+#outer-circle {
+    border: 1px solid BLACK;
+    background-color: #1C7D1A;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+#inner-square {
+    background-color: #A22F2E;
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+#inner-circle {
+    background-color: #0035F8;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#fish-tank {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+}

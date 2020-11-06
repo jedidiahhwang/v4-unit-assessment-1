@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = "Git is a version control system that keeps track of your code changes.";
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = "GitHub houses your projects pushed by Git, allowing collaboration and version control.";
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+const init = {
+    description: "Creates an invisible Git file in your directory and prepares that directory for use with Git.",
+    code: "git init"
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+const clone = {
+    description: "Takes a repository from GitHub and puts a clone of it on your local drive.",
+    code: "git clone <URL>"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+const status = {
+    description: "Checks where in the Git staging area your directory is currently in.",
+    code: "git status"
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+const add = {
+    description: "Adds any changes you made to your file and makes it ready to commit",
+    code: "git add <file name>"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+const commit = {
+    description: "Committing code makes a sort of copied version of your code (commit) that is ready to be pushed onto GitHub",
+    code: "git commit -m 'message'"
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +104,11 @@
 
 //CODE HERE
 
+const addRemote = {
+    description: "Adding a remote location to your repository so you can access other repositories",
+    code: "git remote add origin <URL>"
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +116,8 @@
 */
 
 //CODE HERE
+
+const push = {
+    description: "Pushing code moves your committed code into GitHub",
+    code: "git push"
+}

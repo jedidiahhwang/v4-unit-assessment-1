@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #EC8382;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#site-heading {
+    display: inline-block;
+}
+
+nav {
+    display:inline-block;
+}
+
+.nav-item {
+    margin: 25px;
+    display: inline-block;
+}
+
+.middle-container {
+    border: 5px dotted BLACK;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px;
+    width: 100vw;
+    margin: 10px;
+}
+
+.site-image {
+    width: 100px;
+}
+
+#first-image {
+    float: left;
+    clear: right;
+}
+
+.bottom-container {
+    border: 5px dotted BLACK;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+#second-image {
+    float: right;
+    clear: left;
+    width: 70px;
+}
+
